@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StyleSphereX | ecommerece</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?
+    family=poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <body>
+        <div class="header">
+            <div class="container">
+              <div class="navbar">
+                  <div class="logo">
+                      <img src="images/b1.png" width="125px">
+                  </div>
+                  <nav>
+                    <ul id="MenuItems">
+                      <li><a href="/index.html">Home</a></li>
+                      <li><a href="/product.html">Products</a></li>
+                      <li><a href="/About.html">About</a></li>
+                      <li><a href="/Contact.html">Contact Us</a></li>
+                      <li><a href="/Account.html">Account</a></li>
+                  </ul>
+                  </nav>
+                  <a href="/cartsection.html">
+                    <img src="images/shopping-cart.png" width="30px" height="30px" alt="Your Cart">
+                  </a>
+                    <span class="glyphicon" onclick="menutoggle()">&#xe236;</span>
+          
+          
+              </div>
+            </div>
+          </div>
+            <div class="row">
+                <div class="small-container">
+                    <section class="About" id="About">
+                        <h1 class="heading"> <span>About</span></h1>
+                        <img src="images/newb.png">
+                    <h3>Fashion Is More Than Just Clothing<br> It's A Form Of Self-Expression</h3>
+                   
+                </div>
+            </div>
+            <div class="content">
+                <h3>Your one stop online shop</h3>
+                <p><p>Welcome to Stylespherex, your one-stop destination for all your fashion needs. Our mission is to provide our customers with the latest and trendiest clothing and accessories, carefully curated by our expert stylists. At Stylespherex, we believe that fashion is more than just clothing; it's a form of self-expression. That's why we offer a wide range of styles and sizes to cater to diverse tastes and preferences. Our team is passionate about fashion and is dedicated to delivering the best shopping experience to our customers. We value your feedback and continuously strive to improve our services. Thank you for choosing Stylespherex as your fashion partner. Happy shopping!</p></p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </section>
+    </div>
+
+    <!-----footer----->
+<div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and ios mobile phone.</p>
+          <div class="app-logo">
+            <img src="images/store.png">
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="images/brandlogo2.png">
+          <p>Empowering seamless online shopping experiences for customers worldwide.</p>
+        <div class="applogo">
+  
+        </div>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog post</li>
+            <li>Return Policy</li>
+            <li><a href="/PrivacyPolicy.html">Privacy Policy</a></li> 
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+          </ul>
+        </div>
+  
+      </div>
+      <hr>
+      <p class="copyright"> copyright 2023 - StyleSphereX</p>
+    </div>
+  </div>
+  
+  <!-----js for toggle menu------->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "Opx"
+    function menutoggle(){
+      if(MenuItems.style.maxHeight == "Opx")
+      {
+        MenuItems.style.maxHeight = "200px"
+      }
+      else{
+        MenuItems.style.maxHeight = "Opx"
+      }
+    }
+  </script>
+    </body>
+  </html>

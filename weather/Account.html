@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>All Products - StyleSphereX </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?
+    family=poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <body>
+
+<div class="header">
+  <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/b1.png" width="125px">
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/product.html">Products</a></li>
+            <li><a href="/About.html">About</a></li>
+            <li><a href="/Contact.html">Contact Us</a></li>
+            <li><a href="/Account.html">Account</a></li>
+        </ul>
+        </nav>
+        <a href="/cartsection.html">
+            <img src="images/shopping-cart.png" width="30px" height="30px" alt="Your Cart">
+          </a>
+            <span class="glyphicon" onclick="menutoggle()">&#xe236;</span>
+
+
+    </div>
+  </div>
+</div>
+
+
+<!-- Login/Sign Up Page Content -->
+<main class="login-page">
+    <div class="small-container">
+        <div class="login-form">
+            <h2>Login</h2>
+            <form>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="http://127.0.0.1:5501/signup.html">Sign Up</a></p>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+
+<!-----footer----->
+<div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and ios mobile phone.</p>
+          <div class="app-logo">
+            <img src="images/store.png">
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="images/brandlogo2.png">
+          <p>Empowering seamless online shopping experiences for customers worldwide.</p>
+        <div class="applogo">
+  
+        </div>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog post</li>
+            <li>Return Policy</li>
+            <li><a href="/PrivacyPolicy.html">Privacy Policy</a></li> 
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+          </ul>
+        </div>
+  
+      </div>
+      <hr>
+      <p class="copyright"> copyright 2023 - StyleSphereX</p>
+    </div>
+  </div>
+  <!-----js for toggle menu------->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "Opx"
+    function menutoggle(){
+      if(MenuItems.style.maxHeight == "Opx")
+      {
+        MenuItems.style.maxHeight = "200px"
+      }
+      else{
+        MenuItems.style.maxHeight = "Opx"
+      }
+    }
+  </script>
+    </body>
+  </html>
